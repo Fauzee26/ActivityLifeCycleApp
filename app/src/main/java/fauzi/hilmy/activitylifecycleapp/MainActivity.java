@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //2. Snackbar
 
         Toast.makeText(getApplicationContext(), "Halo ini toast short", Toast.LENGTH_SHORT).show();
+
         Toast.makeText(getApplicationContext(), "Halo ini toast long", Toast.LENGTH_LONG).show();
 
         main = (CoordinatorLayout)findViewById(R.id.main);
